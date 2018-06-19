@@ -1,6 +1,6 @@
  function selectionSort(array) { //Função Selecion Sort
     let Array = [...array]  //Criando o array. O '...' significa que a função/metodo receberá uma quantidade relativa de dados e tratará como um array.
-    Array.forEach(function(element, index) {//X é o elemento e Index é o indice de Element. O forEach nos permite executar determinado codigo para cada elemento na matriz
+    Array.forEach(function(element, index) {//Element é o elemento e Index é o indice de Element. O forEach nos permite executar determinado codigo para cada elemento na matriz
       let minValue = element; //O minValue vai ser o primeiro elemento, porque eu não comparei ele com nenhum elemento.
       let minIndex = index;//O MinIndex é o numero do menor indice.
       for (let i = index; i < Array.length; i++) { //Nós encontramos o menor numero, e encotramos o segundo, não precisamos voltar ao indice 1 porque já passamos por ele
